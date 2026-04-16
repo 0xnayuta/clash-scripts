@@ -379,12 +379,9 @@ function main(config) {
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/link.svg"
     },
     {
-      ...selectGroupBaseOption,
       "name": "漏网之鱼",
       "type": "select",
       "proxies": ["节点选择", "全局直连"],
-      "include-all": true,
-      "filter": "^(?!.*(官网|套餐|流量|异常|剩余|到期|过期)).*$",
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/fish.svg"
     }
   ];
