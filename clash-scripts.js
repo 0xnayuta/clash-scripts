@@ -26,7 +26,12 @@ const dnsConfig = {
     // 本地主机/设备
     "+.lan",
     "+.local",
+    "localhost",
+    "+.localhost",
     "+.arpa",
+    "host.docker.internal",
+    "+.docker.internal",
+    "wsl.local",
     // // Windows 网络出现小地球图标
     "+.msftconnecttest.com",
     "+.msftncsi.com",
