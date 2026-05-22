@@ -152,7 +152,7 @@ const ruleProviders = {
 const rules = [
 
   // 自定义 强直连
-  "PROCESS-NAME,cs2.exe,全局直连", // CS2
+  "PROCESS-NAME,cs2,全局直连", // CS2
 
   // 自定义 强代理
 
@@ -299,7 +299,7 @@ function main(config) {
     {
       "name": "微软服务",
       "type": "select",
-      "proxies": ["全局直连", "节点选择"],
+      "proxies": ["节点选择", "全局直连"],
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/microsoft.svg"
     },
     {
