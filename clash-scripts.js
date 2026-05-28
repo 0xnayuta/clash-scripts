@@ -152,7 +152,7 @@ const ruleProviders = {
 const rules = [
 
   // 自定义 强直连
-  "PROCESS-NAME,cs2,全局直连", // CS2
+  "PROCESS-NAME,cs2.exe,全局直连", // CS2
 
   // 自定义 强代理
 
