@@ -1,0 +1,127 @@
+[2026-06-11 18:29:41.244] INFO [Setup] 开始应用初始化...
+[2026-06-11 18:29:41.249] INFO [Setup] 初始化窗口状态管理...
+[2026-06-11 18:29:41.250] INFO [ClashVergeRev] Version: 2.5.2+autobuild.0610.e1380b9
+[2026-06-11 18:29:41.251] INFO [Setup] Initializing signal handlers...
+[2026-06-11 18:29:41.251] INFO [Setup] 初始化已启动
+[2026-06-11 18:29:41.253] INFO [System] 应用就绪
+[2026-06-11 18:29:41.364] INFO [Core] apply dns_config.yaml (dns section)
+[2026-06-11 18:29:41.364] INFO [Config] 生成运行时配置成功
+[2026-06-11 18:29:41.432] INFO [Config] 开始验证配置
+[2026-06-11 18:29:41.432] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-11 18:29:41.496] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-11 18:29:41.496] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-11 18:29:41.496] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-11 18:29:41.953] INFO [Validate] -------- 验证结果 --------
+[2026-06-11 18:29:41.954] INFO [Validate] 验证成功
+[2026-06-11 18:29:41.954] INFO [Validate] -------- 验证结束 --------
+[2026-06-11 18:29:41.954] INFO [Config] 配置验证成功
+[2026-06-11 18:29:41.956] INFO [Config] Profile 文件清理完成: 总文件数=26, 删除文件数=0, 失败数=0
+[2026-06-11 18:29:41.956] INFO [Window] 开始创建主窗口, should_create=false
+[2026-06-11 18:29:41.957] INFO [Tray] 正在从AppHandle创建系统托盘
+[2026-06-11 18:29:41.965] INFO [Tray] System tray created successfully
+[2026-06-11 18:29:41.984] INFO [Timer] Refreshing timer tasks map, count: 4
+[2026-06-11 18:29:41.985] INFO [Timer] Running overdue timer task immediately: uid=RgboIr1QDZmK
+[2026-06-11 18:29:41.985] INFO [Timer] Running overdue timer task immediately: uid=RSaduZ0nAOie
+[2026-06-11 18:29:41.985] INFO [Timer] Timer initialization completed
+[2026-06-11 18:29:41.985] INFO [Lightweight] 轻量模式已开启
+[2026-06-11 18:29:41.986] INFO [Service] 服务就绪，直接启动
+[2026-06-11 18:29:42.000] INFO [Setup] Initializing silent updater...
+[2026-06-11 18:29:42.000] WARN [Service] Some issue with service IPC Path: 所有的管道范例都在使用中。 (os error 231)
+[2026-06-11 18:29:42.000] INFO [Setup] Silent updater initialized
+[2026-06-11 18:29:42.001] INFO [System] Silent updater: background task started
+[2026-06-11 18:29:42.001] INFO [Timer] Starting timer task: uid=RgboIr1QDZmK
+[2026-06-11 18:29:42.001] INFO [Timer] Starting timer task: uid=RSaduZ0nAOie
+[2026-06-11 18:29:42.082] INFO [Core] Starting core in service mode
+[2026-06-11 18:29:42.142] INFO [Service] 正在尝试通过服务启动核心
+[2026-06-11 18:29:42.142] INFO [Service] 服务就绪，直接启动
+[2026-06-11 18:29:42.196] INFO [Service] 服务已运行且版本匹配，直接使用
+[2026-06-11 18:29:42.196] INFO [Service] 尝试使用现有服务启动核心
+[2026-06-11 18:29:42.219] INFO [Service] 服务成功启动核心
+[2026-06-11 18:29:42.232] INFO [Core] Refreshing system proxy guard...
+[2026-06-11 18:29:42.232] INFO [Core] System proxy is disabled.
+[2026-06-11 18:29:42.833] INFO [Config] [订阅更新] 开始更新订阅 RgboIr1QDZmK
+[2026-06-11 18:29:42.833] INFO [Config] [订阅更新] 开始更新订阅 RSaduZ0nAOie
+[2026-06-11 18:29:42.833] INFO [Config] [订阅更新] RgboIr1QDZmK 是远程订阅，URL: https://update.glados-config.com/mihomo/689517/c0c0c0d/128291/glados.yaml
+[2026-06-11 18:29:42.833] INFO [Config] [订阅更新] RSaduZ0nAOie 是远程订阅，URL: https://p3x9v.no-mad-sub.one/link/s1v1ynjbsnnNClTp?clash=***&extend=***
+[2026-06-11 18:29:42.833] INFO [Config] [订阅更新] 开始下载新的订阅内容
+[2026-06-11 18:29:42.833] INFO [Config] [订阅更新] 开始下载新的订阅内容
+[2026-06-11 18:29:42.990] WARN [Config] Warning: [订阅更新] 正常更新失败: failed to fetch remote profile，尝试使用Clash代理更新
+[2026-06-11 18:29:42.990] WARN [Config] Warning: [订阅更新] 正常更新失败: failed to fetch remote profile，尝试使用Clash代理更新
+[2026-06-11 18:29:43.100] WARN [Config] Warning: [订阅更新] Clash代理更新失败: failed to fetch remote profile，尝试使用系统代理更新
+[2026-06-11 18:29:43.100] WARN [Config] Warning: [订阅更新] Clash代理更新失败: failed to fetch remote profile，尝试使用系统代理更新
+[2026-06-11 18:29:48.814] WARN [Config] Warning: [订阅更新] 系统代理更新失败: failed to fetch remote profile，所有重试均已失败
+[2026-06-11 18:29:48.814] INFO [Timer] Timer task completed for uid: RgboIr1QDZmK (took 5981ms)
+[2026-06-11 18:29:50.376] WARN [Config] Warning: [订阅更新] 系统代理更新失败: failed to fetch remote profile，所有重试均已失败
+[2026-06-11 18:29:50.376] INFO [Timer] Timer task completed for uid: RSaduZ0nAOie (took 7543ms)
+[2026-06-11 18:29:52.008] INFO [System] Silent updater: checking for updates...
+[2026-06-11 18:30:14.576] INFO [System] Silent updater: no update available
+[2026-06-11 18:30:58.445] INFO [Lightweight] 正在退出轻量模式
+[2026-06-11 18:30:58.445] INFO [Window] 开始智能显示主窗口
+[2026-06-11 18:30:58.445] INFO [Window] 窗口不存在，创建新窗口
+[2026-06-11 18:30:58.445] INFO [Window] 开始创建主窗口, should_create=true
+[2026-06-11 18:30:58.447] INFO [Window] 新窗口创建成功，等待前端渲染后显示
+[2026-06-11 18:30:58.447] INFO [Window] 窗口创建成功
+[2026-06-11 18:30:58.499] INFO [Lightweight] 轻量模式已关闭
+[2026-06-11 18:31:10.690] INFO [Core] apply dns_config.yaml (dns section)
+[2026-06-11 18:31:10.690] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-11 18:31:10.748] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-11 18:31:10.748] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-11 18:31:10.748] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-11 18:31:11.150] INFO [Validate] -------- 验证结果 --------
+[2026-06-11 18:31:11.150] INFO [Validate] 验证成功
+[2026-06-11 18:31:11.150] INFO [Validate] -------- 验证结束 --------
+[2026-06-11 18:31:11.751] INFO [Core] Configuration applied
+[2026-06-11 18:31:16.060] INFO [Core] apply dns_config.yaml (dns section)
+[2026-06-11 18:31:16.060] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-11 18:31:16.114] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-11 18:31:16.114] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-11 18:31:16.114] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-11 18:31:16.530] INFO [Validate] -------- 验证结果 --------
+[2026-06-11 18:31:16.530] INFO [Validate] 验证成功
+[2026-06-11 18:31:16.530] INFO [Validate] -------- 验证结束 --------
+[2026-06-11 18:31:17.089] INFO [Core] Configuration applied
+[2026-06-11 18:31:17.224] INFO [Core] apply dns_config.yaml (dns section)
+[2026-06-11 18:31:17.225] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-11 18:31:17.282] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-11 18:31:17.282] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-11 18:31:17.282] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-11 18:31:17.720] INFO [Validate] -------- 验证结果 --------
+[2026-06-11 18:31:17.720] INFO [Validate] 验证成功
+[2026-06-11 18:31:17.720] INFO [Validate] -------- 验证结束 --------
+[2026-06-11 18:31:18.061] INFO [Core] Configuration applied
+[2026-06-11 18:32:19.581] INFO [Config] DNS config saved to "C:\\Users\\Admin\\AppData\\Roaming\\io.github.clash-verge-rev.clash-verge-rev\\dns_config.yaml"
+[2026-06-11 18:32:19.584] INFO [Validate] 使用Clash内核验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\dns_config.yaml
+[2026-06-11 18:32:19.584] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\dns_config.yaml
+[2026-06-11 18:32:19.584] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-11 18:32:19.584] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-11 18:32:19.628] INFO [Validate] -------- 验证结果 --------
+[2026-06-11 18:32:19.628] INFO [Validate] 验证成功
+[2026-06-11 18:32:19.628] INFO [Validate] -------- 验证结束 --------
+[2026-06-11 18:32:19.630] INFO [Config] Applying DNS config from file
+[2026-06-11 18:32:19.701] INFO [Core] apply dns_config.yaml (dns section)
+[2026-06-11 18:32:19.701] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-11 18:32:19.755] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-11 18:32:19.755] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-11 18:32:19.755] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-11 18:32:20.159] INFO [Validate] -------- 验证结果 --------
+[2026-06-11 18:32:20.159] INFO [Validate] 验证成功
+[2026-06-11 18:32:20.159] INFO [Validate] -------- 验证结束 --------
+[2026-06-11 18:32:20.489] INFO [Core] Configuration applied
+[2026-06-11 18:32:20.489] INFO [Config] DNS config successfully applied
+[2026-06-11 18:32:25.830] INFO [Window] shutting down embedded server
+[2026-06-11 18:32:25.830] INFO [Config] save all draft data
+[2026-06-11 18:32:25.883] INFO [Config] save all draft data finished
+[2026-06-11 18:32:25.883] INFO [System] 开始异步清理资源
+[2026-06-11 18:32:25.884] INFO [System] 开始执行异步清理操作...
+[2026-06-11 18:32:25.884] INFO [Window] 系统代理未启用，跳过重置
+[2026-06-11 18:32:25.884] INFO [System] disable tun
+[2026-06-11 18:32:25.884] INFO [System] send disable tun request to mihomo
+[2026-06-11 18:32:25.935] INFO [Window] TUN模式已禁用
+[2026-06-11 18:32:25.935] INFO [System] stop core
+[2026-06-11 18:32:25.935] INFO [Core] Stopping service
+[2026-06-11 18:32:25.935] INFO [Service] 通过服务停止核心 (IPC)
+[2026-06-11 18:32:25.950] INFO [Service] 服务成功停止核心
+[2026-06-11 18:32:25.950] INFO [Window] core已停止
+[2026-06-11 18:32:25.950] INFO [System] 异步关闭操作完成 - 代理: true, 核心: true, DNS: true, 总体: true
+[2026-06-11 18:32:25.950] INFO [System] 资源清理完成，退出代码: 0
+[2026-06-11 18:32:25.951] INFO [System] Application exited

@@ -1,0 +1,52 @@
+[2026-06-11 00:54:48.527] INFO [Setup] 后台日志清理任务完成
+[2026-06-11 00:54:48.527] INFO [Setup] 开始应用初始化...
+[2026-06-11 00:54:48.529] INFO [Setup] 初始化窗口状态管理...
+[2026-06-11 00:54:48.529] INFO [Setup] Initializing signal handlers...
+[2026-06-11 00:54:48.529] INFO [ClashVergeRev] Version: 2.5.2+autobuild.0610.e1380b9
+[2026-06-11 00:54:48.529] INFO [Setup] 初始化已启动
+[2026-06-11 00:54:48.529] INFO [System] 应用就绪
+[2026-06-11 00:54:48.605] INFO [Core] apply dns_config.yaml (dns section)
+[2026-06-11 00:54:48.605] INFO [Config] 生成运行时配置成功
+[2026-06-11 00:54:48.666] INFO [Config] 开始验证配置
+[2026-06-11 00:54:48.666] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-11 00:54:48.726] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-11 00:54:48.726] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-11 00:54:48.726] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-11 00:54:49.175] INFO [Validate] -------- 验证结果 --------
+[2026-06-11 00:54:49.175] INFO [Validate] 验证成功
+[2026-06-11 00:54:49.175] INFO [Validate] -------- 验证结束 --------
+[2026-06-11 00:54:49.176] INFO [Config] 配置验证成功
+[2026-06-11 00:54:49.177] INFO [Config] Profile 文件清理完成: 总文件数=26, 删除文件数=0, 失败数=0
+[2026-06-11 00:54:49.177] INFO [Window] 开始创建主窗口, should_create=false
+[2026-06-11 00:54:49.177] INFO [Tray] 正在从AppHandle创建系统托盘
+[2026-06-11 00:54:49.184] INFO [Tray] System tray created successfully
+[2026-06-11 00:54:49.184] INFO [Timer] Refreshing timer tasks map, count: 4
+[2026-06-11 00:54:49.184] INFO [Timer] Timer initialization completed
+[2026-06-11 00:54:49.184] INFO [Lightweight] 轻量模式已开启
+[2026-06-11 00:54:49.184] WARN [Service] Some issue with service IPC Path: 所有的管道范例都在使用中。 (os error 231)
+[2026-06-11 00:54:49.185] INFO [Setup] Initializing silent updater...
+[2026-06-11 00:54:49.185] INFO [Service] 服务就绪，直接启动
+[2026-06-11 00:54:49.185] INFO [Setup] Silent updater initialized
+[2026-06-11 00:54:49.185] INFO [System] Silent updater: background task started
+[2026-06-11 00:54:49.254] INFO [Core] Starting core in service mode
+[2026-06-11 00:54:49.320] INFO [Service] 正在尝试通过服务启动核心
+[2026-06-11 00:54:49.320] INFO [Service] 服务就绪，直接启动
+[2026-06-11 00:54:49.354] INFO [Service] 服务已运行且版本匹配，直接使用
+[2026-06-11 00:54:49.354] INFO [Service] 尝试使用现有服务启动核心
+[2026-06-11 00:54:49.387] INFO [Service] 服务成功启动核心
+[2026-06-11 00:54:49.405] INFO [Core] Refreshing system proxy guard...
+[2026-06-11 00:54:49.405] INFO [Core] System proxy is disabled.
+[2026-06-11 00:54:49.872] INFO [Lightweight] 正在退出轻量模式
+[2026-06-11 00:54:49.872] INFO [Window] 开始智能显示主窗口
+[2026-06-11 00:54:49.872] INFO [Window] 窗口不存在，创建新窗口
+[2026-06-11 00:54:49.872] INFO [Window] 开始创建主窗口, should_create=true
+[2026-06-11 00:54:49.872] INFO [Window] 新窗口创建成功，等待前端渲染后显示
+[2026-06-11 00:54:49.872] INFO [Window] 窗口创建成功
+[2026-06-11 00:54:49.926] INFO [Lightweight] 轻量模式已关闭
+[2026-06-11 00:54:59.198] INFO [System] Silent updater: checking for updates...
+[2026-06-11 00:54:59.653] INFO [System] Silent updater: no update available
+[2026-06-11 01:09:15.847] INFO [Window] 开始智能显示主窗口
+[2026-06-11 01:09:15.847] INFO [Window] 开始激活窗口
+[2026-06-11 01:09:15.847] INFO [Window] 窗口激活成功
+[2026-06-11 01:11:32.640] INFO [Window] shutting down embedded server
+[2026-06-11 01:11:32.640] INFO [Config] save all draft data

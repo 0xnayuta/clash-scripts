@@ -1,80 +1,3 @@
-// 国内 DNS 服务器
-const domesticNameservers = [
-  "https://doh.pub/dns-query", // TencentDNS
-  "https://dns.alidns.com/dns-query", // ALiDNS  
-];
-
-// 国外 DNS 服务器
-const foreignNameservers = [
-  "https://dns.google/dns-query", // GoogleDNS
-  "https://cloudflare-dns.com/dns-query", // CloudFlareDNS
-];
-
-// DNS 配置
-const dnsConfig = {
-  "enable": true,
-  "listen": ":1053",
-  "ipv6": true,
-  "prefer-h3": true,
-  "respect-rules": false,
-  "use-hosts": false,
-  "use-system-hosts": false,
-  "cache-algorithm": "arc",
-  "enhanced-mode": "fake-ip",
-  "fake-ip-range": "198.18.0.1/16",
-  "fake-ip-filter": [
-    // 本地主机/设备
-    "+.lan",
-    "+.local",
-    "localhost",
-    "+.localhost",
-    "+.arpa",
-    "host.docker.internal",
-    "+.docker.internal",
-    "wsl.local",
-    // // Windows 网络出现小地球图标
-    "+.msftconnecttest.com",
-    "+.msftncsi.com",
-    // 微信快速登录检测失败
-    "localhost.work.weixin.qq.com",
-    // QQ 快速登录检测失败
-    "localhost.ptlogin2.qq.com",
-    "localhost.sec.qq.com",
-    // 追加以下条目
-    "+.in-addr.arpa", 
-    "+.ip6.arpa",
-    "pool.ntp.org",
-    "time.apple.com",
-    "time.android.com",
-    "time.windows.com",
-    "time.cloudflare.com",
-    "ntp.aliyun.com",
-    "ntp.tencent.com",
-    "+.steamcontent.com",
-    "+.steamstatic.com",
-    "+.steamserver.net",
-    "+.test.steampowered.com",
-    "+.api.steampowered.com",
-    "+.cm.steampowered.com",
-    "+.akamaihd.net"
-  ],
-
-  // 必须使用真实的国内 DNS
-  "default-nameserver": ["159.226.8.6","159.226.8.7"],
-
-  // 所有非命中 policy 的域名走国外 DNS
-  "nameserver": [...foreignNameservers],
-
-  // 所有国内域名由国内 DNS 解析
-  "nameserver-policy": {
-    "geosite:private,cn,apple-cn": domesticNameservers
-  },
-
-  // 代理后的 DNS 查询路径
-  "proxy-server-nameserver": [...foreignNameservers],
-  "direct-nameserver": [...domesticNameservers]
-};
-
 // 规则集通用配置
 const ruleProviderCommon = {
   "type": "http",
@@ -174,7 +97,9 @@ const rules = [
   "GEOSITE,github,GitHub",
   "GEOSITE,google,谷歌服务",
   "GEOSITE,bing,必应搜索",
+  "GEOSITE,onedrive,OneDrive",
   "GEOSITE,microsoft,微软服务",
+  "GEOSITE,cloudflare,CloudFlare",
   "GEOSITE,youtube,YouTube",
   "GEOSITE,telegram,电报消息",
   "GEOSITE,netflix,Netflix",
@@ -233,29 +158,6 @@ function main(config) {
     throw new Error("配置文件中未找到任何代理");
   }
 
-  // 覆盖原配置中 DNS 配置
-  config["dns"] = dnsConfig;
-
-  // 注入 Sniffer 配置，解决 Fake-IP 模式下 BT 下载无速度、特定应用报错等问题
-  config["sniffer"] = {
-    "enable": true,
-    "force-dns-mapping": true,
-    "parse-pure-ip": true,
-    "override-destination": true,
-    "sniff": {
-      "HTTP": {
-        "ports": [80, "8080-8880"],
-        "override-destination": true
-      },
-      "TLS": {
-        "ports": [443, 8443]
-      },
-      "QUIC": {
-        "ports": [443, 8443]
-      }
-    }
-  };
-
   // 覆盖原配置中的代理组
   config["proxy-groups"] = [
     {
@@ -297,10 +199,22 @@ function main(config) {
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/bing.svg"
     },
     {
-      "name": "微软服务",
+      "name": "OneDrive",
       "type": "select",
       "proxies": ["节点选择", "全局直连"],
+      "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/onedrive.svg"
+    },
+    {
+      "name": "微软服务",
+      "type": "select",
+      "proxies": ["全局直连", "节点选择"],
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/microsoft.svg"
+    },
+    {
+      "name": "CloudFlare",
+      "type": "select",
+      "proxies": ["节点选择", "全局直连"],
+      "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/cloudflare.svg"
     },
     {
       "name": "YouTube",

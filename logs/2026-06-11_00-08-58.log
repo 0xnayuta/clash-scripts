@@ -1,0 +1,118 @@
+[2026-06-10 23:56:27.831] INFO [Setup] 开始应用初始化...
+[2026-06-10 23:56:27.835] INFO [Setup] 初始化窗口状态管理...
+[2026-06-10 23:56:27.836] INFO [ClashVergeRev] Version: 2.5.2+autobuild.0610.e1380b9
+[2026-06-10 23:56:27.836] INFO [Setup] Initializing signal handlers...
+[2026-06-10 23:56:27.837] INFO [Setup] 初始化已启动
+[2026-06-10 23:56:27.838] INFO [System] 应用就绪
+[2026-06-10 23:56:28.032] INFO [Config] 生成运行时配置成功
+[2026-06-10 23:56:28.097] INFO [Config] 开始验证配置
+[2026-06-10 23:56:28.097] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-10 23:56:28.161] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-10 23:56:28.161] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-10 23:56:28.161] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-10 23:56:28.710] INFO [Validate] -------- 验证结果 --------
+[2026-06-10 23:56:28.710] INFO [Validate] 验证成功
+[2026-06-10 23:56:28.710] INFO [Validate] -------- 验证结束 --------
+[2026-06-10 23:56:28.710] INFO [Config] 配置验证成功
+[2026-06-10 23:56:28.789] INFO [Config] Profile 文件清理完成: 总文件数=26, 删除文件数=0, 失败数=0
+[2026-06-10 23:56:28.789] INFO [Window] 开始创建主窗口, should_create=false
+[2026-06-10 23:56:28.790] INFO [Tray] 正在从AppHandle创建系统托盘
+[2026-06-10 23:56:28.798] INFO [Tray] System tray created successfully
+[2026-06-10 23:56:28.799] INFO [Timer] Refreshing timer tasks map, count: 4
+[2026-06-10 23:56:28.799] INFO [Timer] Timer initialization completed
+[2026-06-10 23:56:28.799] INFO [Lightweight] 轻量模式已开启
+[2026-06-10 23:56:28.799] INFO [Service] 服务就绪，直接启动
+[2026-06-10 23:56:28.819] INFO [Setup] Initializing silent updater...
+[2026-06-10 23:56:28.888] INFO [Setup] Silent updater initialized
+[2026-06-10 23:56:28.888] INFO [System] Silent updater: background task started
+[2026-06-10 23:56:29.367] INFO [Core] Starting core in service mode
+[2026-06-10 23:56:29.424] INFO [Service] 正在尝试通过服务启动核心
+[2026-06-10 23:56:29.425] INFO [Service] 服务就绪，直接启动
+[2026-06-10 23:56:29.835] INFO [Service] 服务已运行且版本匹配，直接使用
+[2026-06-10 23:56:29.835] INFO [Service] 尝试使用现有服务启动核心
+[2026-06-10 23:56:29.838] INFO [Service] 服务成功启动核心
+[2026-06-10 23:56:29.851] INFO [Core] Refreshing system proxy guard...
+[2026-06-10 23:56:29.851] INFO [Core] System proxy is disabled.
+[2026-06-10 23:56:38.893] INFO [System] Silent updater: checking for updates...
+[2026-06-10 23:56:38.898] WARN [System] Silent updater: check failed: error sending request for url (https://github.com/clash-verge-rev/clash-verge-rev/releases/download/updater/update.json)
+[2026-06-10 23:56:38.899] WARN [System] Silent updater: cycle error: error sending request for url (https://github.com/clash-verge-rev/clash-verge-rev/releases/download/updater/update.json)
+[2026-06-10 23:58:00.182] INFO [Tray] 托盘菜单点击: 打开窗口
+[2026-06-10 23:58:00.182] INFO [Lightweight] 正在退出轻量模式
+[2026-06-10 23:58:00.182] INFO [Window] 开始智能显示主窗口
+[2026-06-10 23:58:00.182] INFO [Window] 窗口不存在，创建新窗口
+[2026-06-10 23:58:00.182] INFO [Window] 开始创建主窗口, should_create=true
+[2026-06-10 23:58:00.184] INFO [Window] 新窗口创建成功，等待前端渲染后显示
+[2026-06-10 23:58:00.184] INFO [Window] 窗口创建成功
+[2026-06-10 23:58:00.236] INFO [Lightweight] 轻量模式已关闭
+[2026-06-10 23:58:04.605] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-10 23:58:04.668] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-10 23:58:04.668] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-10 23:58:04.668] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-10 23:58:05.084] INFO [Validate] -------- 验证结果 --------
+[2026-06-10 23:58:05.084] INFO [Validate] 验证成功
+[2026-06-10 23:58:05.084] INFO [Validate] -------- 验证结束 --------
+[2026-06-10 23:58:05.441] INFO [Core] Configuration applied
+[2026-06-10 23:58:07.040] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-10 23:58:07.095] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-10 23:58:07.095] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-10 23:58:07.095] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-10 23:58:07.516] INFO [Validate] -------- 验证结果 --------
+[2026-06-10 23:58:07.516] INFO [Validate] 验证成功
+[2026-06-10 23:58:07.516] INFO [Validate] -------- 验证结束 --------
+[2026-06-10 23:58:07.860] INFO [Core] Configuration applied
+[2026-06-10 23:58:09.088] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-10 23:58:09.150] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-10 23:58:09.150] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-10 23:58:09.150] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-10 23:58:09.562] INFO [Validate] -------- 验证结果 --------
+[2026-06-10 23:58:09.562] INFO [Validate] 验证成功
+[2026-06-10 23:58:09.562] INFO [Validate] -------- 验证结束 --------
+[2026-06-10 23:58:09.910] INFO [Core] Configuration applied
+[2026-06-10 23:58:10.049] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-10 23:58:10.108] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-10 23:58:10.108] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-10 23:58:10.108] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-10 23:58:10.516] INFO [Validate] -------- 验证结果 --------
+[2026-06-10 23:58:10.516] INFO [Validate] 验证成功
+[2026-06-10 23:58:10.516] INFO [Validate] -------- 验证结束 --------
+[2026-06-10 23:58:10.845] INFO [Core] Configuration applied
+[2026-06-10 23:58:11.025] INFO [Validate] 生成临时配置文件用于验证
+[2026-06-10 23:58:11.081] INFO [Validate] 开始验证配置文件: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev\clash-verge-check.yaml
+[2026-06-10 23:58:11.081] INFO [Validate] 使用内核: verge-mihomo
+[2026-06-10 23:58:11.081] INFO [Validate] 验证目录: C:\Users\Admin\AppData\Roaming\io.github.clash-verge-rev.clash-verge-rev
+[2026-06-10 23:58:11.504] INFO [Validate] -------- 验证结果 --------
+[2026-06-10 23:58:11.504] INFO [Validate] 验证成功
+[2026-06-10 23:58:11.504] INFO [Validate] -------- 验证结束 --------
+[2026-06-10 23:58:12.069] INFO [Core] Configuration applied
+[2026-06-11 00:00:58.710] INFO [Window] 开始智能显示主窗口
+[2026-06-11 00:00:58.711] INFO [Window] 开始激活窗口
+[2026-06-11 00:00:58.711] INFO [Window] 窗口激活成功
+[2026-06-11 00:02:12.014] INFO [Window] 开始智能显示主窗口
+[2026-06-11 00:02:12.015] INFO [Window] 开始激活窗口
+[2026-06-11 00:02:12.015] INFO [Window] 窗口激活成功
+[2026-06-11 00:02:16.878] INFO [Window] 开始智能显示主窗口
+[2026-06-11 00:02:16.878] INFO [Window] 开始激活窗口
+[2026-06-11 00:02:16.878] INFO [Window] 窗口激活成功
+[2026-06-11 00:03:56.193] INFO [Window] 开始智能显示主窗口
+[2026-06-11 00:03:56.194] INFO [Window] 开始激活窗口
+[2026-06-11 00:03:56.194] INFO [Window] 窗口激活成功
+[2026-06-11 00:08:45.971] INFO [Window] 开始智能显示主窗口
+[2026-06-11 00:08:45.972] INFO [Window] 开始激活窗口
+[2026-06-11 00:08:45.973] INFO [Window] 窗口激活成功
+[2026-06-11 00:08:58.590] INFO [Window] shutting down embedded server
+[2026-06-11 00:08:58.590] INFO [Config] save all draft data
+[2026-06-11 00:08:58.643] INFO [Config] save all draft data finished
+[2026-06-11 00:08:58.643] INFO [System] 开始异步清理资源
+[2026-06-11 00:08:58.644] INFO [System] 开始执行异步清理操作...
+[2026-06-11 00:08:58.644] INFO [Window] 系统代理未启用，跳过重置
+[2026-06-11 00:08:58.644] INFO [System] disable tun
+[2026-06-11 00:08:58.644] INFO [System] send disable tun request to mihomo
+[2026-06-11 00:08:58.682] INFO [Window] TUN模式已禁用
+[2026-06-11 00:08:58.682] INFO [System] stop core
+[2026-06-11 00:08:58.682] INFO [Core] Stopping service
+[2026-06-11 00:08:58.682] INFO [Service] 通过服务停止核心 (IPC)
+[2026-06-11 00:08:58.703] INFO [Service] 服务成功停止核心
+[2026-06-11 00:08:58.703] INFO [Window] core已停止
+[2026-06-11 00:08:58.703] INFO [System] 异步关闭操作完成 - 代理: true, 核心: true, DNS: true, 总体: true
+[2026-06-11 00:08:58.703] INFO [System] 资源清理完成，退出代码: 0
+[2026-06-11 00:08:58.704] INFO [System] Application exited

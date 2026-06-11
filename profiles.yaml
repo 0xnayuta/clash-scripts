@@ -1,0 +1,226 @@
+# Profiles Config for Clash Verge
+
+current: Re1bbjhnITbq
+items:
+- uid: Merge
+  type: merge
+  name: null
+  file: Merge.yaml
+  updated: 1779647410
+- uid: Script
+  type: script
+  name: null
+  file: Script.js
+  updated: 1779647410
+- uid: mjHSvKjXpUwI
+  type: merge
+  name: null
+  file: mjHSvKjXpUwI.yaml
+  updated: 1779647543
+- uid: syOee59Vud4k
+  type: script
+  name: null
+  file: syOee59Vud4k.js
+  updated: 1779647543
+- uid: rGRTZDAcBXgJ
+  type: rules
+  name: null
+  file: rGRTZDAcBXgJ.yaml
+  updated: 1779647543
+- uid: pqnKBlFfkk5d
+  type: proxies
+  name: null
+  file: pqnKBlFfkk5d.yaml
+  updated: 1779647543
+- uid: gVvr7NlJeL3N
+  type: groups
+  name: null
+  file: gVvr7NlJeL3N.yaml
+  updated: 1779647543
+- uid: Re1bbjhnITbq
+  type: remote
+  name: FreeCloud
+  file: Re1bbjhnITbq.yaml
+  desc: ''
+  url: https://e11e.alidayu.alipayqq.cn/ktff/m3u8/api/video?token=a08186a827d5668118b58956700e9f3f
+  selected:
+  - name: Cloud
+    now: 日本东京2-AN | 1x
+  - name: 节点选择
+    now: 日本东京3-AN | 1x
+  - name: OneDrive
+    now: 节点选择
+  - name: GLOBAL
+    now: 日本东京1-AN | 1x
+  - name: 漏网之鱼
+    now: 节点选择
+  extra:
+    upload: 121483566
+    download: 7752254801
+    total: 107374182400
+    expire: 1781239800
+  updated: 1781094761
+  option:
+    with_proxy: false
+    self_proxy: false
+    update_interval: 1440
+    allow_auto_update: true
+    merge: mjHSvKjXpUwI
+    script: syOee59Vud4k
+    rules: rGRTZDAcBXgJ
+    proxies: pqnKBlFfkk5d
+    groups: gVvr7NlJeL3N
+- uid: mjuQvKMlcUHD
+  type: merge
+  name: null
+  file: mjuQvKMlcUHD.yaml
+  updated: 1779791323
+- uid: sFu7hY6zdO0N
+  type: script
+  name: null
+  file: sFu7hY6zdO0N.js
+  updated: 1779791323
+- uid: rhqPlgAMSlCb
+  type: rules
+  name: null
+  file: rhqPlgAMSlCb.yaml
+  updated: 1779791323
+- uid: pYXCJpVfWkfZ
+  type: proxies
+  name: null
+  file: pYXCJpVfWkfZ.yaml
+  updated: 1779791323
+- uid: grbSDJr2Kfi7
+  type: groups
+  name: null
+  file: grbSDJr2Kfi7.yaml
+  updated: 1779791323
+- uid: RgboIr1QDZmK
+  type: remote
+  name: GLaDOS
+  file: RgboIr1QDZmK.yaml
+  desc: ''
+  url: https://update.glados-config.com/mihomo/689517/c0c0c0d/128291/glados.yaml
+  selected:
+  - name: 节点选择
+    now: TW-IPv6-P1-7
+  extra:
+    upload: 1
+    download: 1835577332
+    total: 107374182400
+    expire: 1813622452
+  updated: 1781091832
+  option:
+    with_proxy: false
+    self_proxy: false
+    update_interval: 720
+    allow_auto_update: true
+    merge: mjuQvKMlcUHD
+    script: sFu7hY6zdO0N
+    rules: rhqPlgAMSlCb
+    proxies: pYXCJpVfWkfZ
+    groups: grbSDJr2Kfi7
+  home: https://glados-facility.com
+- uid: mbt6sl9GbDMs
+  type: merge
+  name: null
+  file: mbt6sl9GbDMs.yaml
+  updated: 1779791390
+- uid: s2YkE2Qvs4qT
+  type: script
+  name: null
+  file: s2YkE2Qvs4qT.js
+  updated: 1779791390
+- uid: rLNYd5R4V8G9
+  type: rules
+  name: null
+  file: rLNYd5R4V8G9.yaml
+  updated: 1779791390
+- uid: pQMuISZhojZX
+  type: proxies
+  name: null
+  file: pQMuISZhojZX.yaml
+  updated: 1779791390
+- uid: gV2An7q3Zoxd
+  type: groups
+  name: null
+  file: gV2An7q3Zoxd.yaml
+  updated: 1779791390
+- uid: RSaduZ0nAOie
+  type: remote
+  name: iKuuu
+  file: RSaduZ0nAOie.yaml
+  desc: ''
+  url: https://p3x9v.no-mad-sub.one/link/s1v1ynjbsnnNClTp?clash=3&extend=1
+  selected:
+  - name: 微软服务
+    now: 全局直连
+  - name: 节点选择
+    now: 🇯🇵 免费-日本4-Ver.8
+  extra:
+    upload: 298389822
+    download: 9318053215
+    total: 53687091200
+    expire: 2042623612
+  updated: 1781091833
+  option:
+    with_proxy: false
+    self_proxy: false
+    update_interval: 360
+    allow_auto_update: true
+    merge: mbt6sl9GbDMs
+    script: s2YkE2Qvs4qT
+    rules: rLNYd5R4V8G9
+    proxies: pQMuISZhojZX
+    groups: gV2An7q3Zoxd
+  home: https://ikuuu.win
+- uid: mnqnUNvu4D5f
+  type: merge
+  name: null
+  file: mnqnUNvu4D5f.yaml
+  updated: 1779894438
+- uid: sTZ2SCh0V0Cm
+  type: script
+  name: null
+  file: sTZ2SCh0V0Cm.js
+  updated: 1779894438
+- uid: r7xXrCnarrE4
+  type: rules
+  name: null
+  file: r7xXrCnarrE4.yaml
+  updated: 1779894438
+- uid: procxmAgYdoS
+  type: proxies
+  name: null
+  file: procxmAgYdoS.yaml
+  updated: 1779894438
+- uid: gfLPrq15XGVA
+  type: groups
+  name: null
+  file: gfLPrq15XGVA.yaml
+  updated: 1779894438
+- uid: RX66PT3bmNfH
+  type: remote
+  name: 魔戒.net
+  file: RX66PT3bmNfH.yaml
+  url: https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=5e8604e6163e51919e294e96a2906460
+  selected:
+  - name: 节点选择
+    now: 日本JP-HY2
+  - name: 漏网之鱼
+    now: 节点选择
+  extra:
+    upload: 25543588507
+    download: 55330859853
+    total: 139586437120
+    expire: 0
+  updated: 1781101831
+  option:
+    update_interval: 1440
+    allow_auto_update: true
+    merge: mnqnUNvu4D5f
+    script: sTZ2SCh0V0Cm
+    rules: r7xXrCnarrE4
+    proxies: procxmAgYdoS
+    groups: gfLPrq15XGVA
+  home: https://mojie.app
